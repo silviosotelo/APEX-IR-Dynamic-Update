@@ -46,7 +46,7 @@ The plugin settings are highly customizable and you can change:
 Type||'-'||SEQ_ID||'-'||Position
 ```
 
-- **Explanation of the Format**
+**Explanation of the Format**
 - **Type**: Indicates the data type of the column in the collection.
   - **C** for VARCHAR2 columns (C001 to C050).
   - **N** for NUMBER columns (N001 to N005).
