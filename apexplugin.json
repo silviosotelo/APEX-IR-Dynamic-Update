@@ -27,7 +27,7 @@
         "internalName" : "RWS.APEX.IR.DYNAMIC.ITEM.UPDATE",
         "type" : "DYNAMIC ACTION",
         "demo" : "https://apex.oracle.com/pls/apex/f?p=RWS",
-        "previewImage" : "https://raw.githubusercontent.com/silviosotelo/apex-search-bar/main/APEX-IR-Dynamic-Update-preview.gif"       
+        "previewImage" : "https://raw.githubusercontent.com/silviosotelo/APEX-IR-Dynamic-Update/main/APEX-IR-Dynamic-Update-preview.gif"       
       }
     }
   }
