@@ -1,6 +1,6 @@
 # Oracle APEX Dynamic Action Plugin - APEX IR Dynamic Item Update
 
-APEX IR Dynamic Item Update es un plugin de acción dinámica para Oracle APEX que permite la actualización en tiempo real de múltiples tipos de elementos dinámicos (APEX_ITEM) en una región interactiva. Este plugin facilita la sincronización automática de los cambios realizados en los elementos con una colección de Oracle APEX, ofreciendo una experiencia de usuario fluida y eficiente.
+APEX IR Dynamic Item Update is a dynamic action plugin for Oracle APEX that enables real-time updating of multiple types of dynamic items (APEX_ITEM) in an interactive region. This plugin facilitates automatic synchronization of changes made to items with an Oracle APEX collection, providing a smooth and efficient user experience.
 
 
 - [Oracle APEX Dynamic Action Plugin - APEX IR Dynamic Item Update](#oracle-apex-dynamic-action-plugin---apex-ir-dynamic-item-update)
