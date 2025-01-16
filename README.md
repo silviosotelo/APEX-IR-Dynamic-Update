@@ -43,17 +43,17 @@ The plugin settings are highly customizable and you can change:
 - **Dynamic Item ID Format (p_item_id)** - When using dynamic items (APEX_ITEM), the p_item_id must follow a specific format to correctly identify and update the corresponding collection member. The format is as follows:
 
 ```language-sql
-<type>||'-'||SEQ_ID||'-'||<column_position>
+Type||'-'||SEQ_ID||'-'||Position
 ```
 
 - **Explanation of the Format**
-- **<type>**: Indicates the data type of the column in the collection.
+- **Type**: Indicates the data type of the column in the collection.
  - **C** for VARCHAR2 columns (C001 to C050).
  - **N** for NUMBER columns (N001 to N005).
  - **D** for DATE columns (D001 to D005).
  - **CLOB** for CLOB columns.
 - **SEQ_ID**: The unique sequence ID of the collection row.
-- **<column_position>**: Specifies the column number within the collection that needs to be updated. This corresponds to the column position of the desired attribute:
+- **Position**: Specifies the column number within the collection that needs to be updated. This corresponds to the column position of the desired attribute:
 
 **For example**:
 - To update C050 (a VARCHAR2 column), the p_item_id should be **C-SEQ_ID-50**.
