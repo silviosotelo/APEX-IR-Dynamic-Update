@@ -48,10 +48,10 @@ Type||'-'||SEQ_ID||'-'||Position
 
 - **Explanation of the Format**
 - **Type**: Indicates the data type of the column in the collection.
- - **C** for VARCHAR2 columns (C001 to C050).
- - **N** for NUMBER columns (N001 to N005).
- - **D** for DATE columns (D001 to D005).
- - **CLOB** for CLOB columns.
+  - **C** for VARCHAR2 columns (C001 to C050).
+  - **N** for NUMBER columns (N001 to N005).
+  - **D** for DATE columns (D001 to D005).
+  - **CLOB** for CLOB columns.
 - **SEQ_ID**: The unique sequence ID of the collection row.
 - **Position**: Specifies the column number within the collection that needs to be updated. This corresponds to the column position of the desired attribute:
 
