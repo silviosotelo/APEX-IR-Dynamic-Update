@@ -47,8 +47,9 @@ The plugin settings are highly customizable and you can change:
 - Configure dynamic items in your query using the APEX_ITEM options.
 - Create a Dynamic Action:
 - Event: Change.
-- Action: Dynamic update of APEX IR items.
-- Configure the apex collection name and region ID.
+- Action: APEX IR Dynamic Update.
+- Fire on Initialization: On.
+- Configure the APEX Collection Name and Region ID.
 - Adjust the plugin settings to customize attributes to your application needs.
 
 
