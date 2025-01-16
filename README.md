@@ -18,7 +18,7 @@ APEX IR Dynamic Item Update es un plugin de acción dinámica para Oracle APEX q
 
 
 ## Preview
-![](https://github.com/silviosotelo/APEX-IR-Dynamic-Update/blob/main/APEX-IR-Dynamic-Update-preview.gif)
+![](https://github.com/silviosotelo/APEX-IR-Dynamic-Update/blob/main/APEX-IR-Dynamic-Update-preview.mp4)
 
 
 ## Install
