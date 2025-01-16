@@ -39,8 +39,28 @@ The plugin settings are highly customizable and you can change:
   - **APEX_ITEM.TEXTAREA:** - Text areas for long inputs
   - **APEX_ITEM.DATE_POPUP2:** - Date pickers.
   - **APEX_ITEM.SELECT_LIST_FROM_LOV:** - Select values from lov list.
-- **Custom Attributes** - Set properties such as class, id, and CSS styles for elements.
-- **Elements to Send** - Defines the page elements that should be sent to the server along with the AJAX Callback.
+- **Custom Attributes** - Set properties such as **class="ir-edit-input"**, id, and CSS styles for elements.
+- **Dynamic Item ID Format (p_item_id)** - When using dynamic items (APEX_ITEM), the p_item_id must follow a specific format to correctly identify and update the corresponding collection member. The format is as follows:
+
+```language-sql
+<prefix>||'-'||<SEQ_ID>||'-'||<column_position>
+```
+
+- **Explanation of the Format**
+<prefix>: Indicates the data type of the column in the collection.
+
+- C for VARCHAR2 columns (C001 to C050).
+- N for NUMBER columns (N001 to N005).
+- D for DATE columns (D001 to D005).
+- CLOB for CLOB columns.
+- <SEQ_ID>: The unique sequence ID of the collection row.
+
+- <column_position>: Specifies the column number within the collection that needs to be updated. This corresponds to the column position of the desired attribute:
+
+**For example**:
+- To update C050 (a VARCHAR2 column), the p_item_id should be C-<SEQ_ID>-50.
+- To update N005 (a NUMBER column), the p_item_id should be N-<SEQ_ID>-5.
+- To update D003 (a DATE column), the p_item_id should be D-<SEQ_ID>-3.
 
 ## How to use
 - Add an interactive report region to your page.
