@@ -28,7 +28,7 @@ prompt APPLICATION 400 - Santa Clara
 -- Application Export:
 --   Application:     400
 --   Name:            Santa Clara
---   Date and Time:   14:25 Wednesday January 15, 2025
+--   Date and Time:   15:37 Thursday January 16, 2025
 --   Exported By:     SOTELOS
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -70,7 +70,7 @@ unistr('    -- Configura la funci\00F3n JavaScript que se ejecutar\00E1'),
 '    vr_result.javascript_function := ''',
 '        function () {',
 '            var ajaxIdentifier = '' || apex_javascript.add_value(apex_plugin.get_ajax_identifier, false) || '';',
-'            var regionSelector = '' || apex_javascript.add_value(p_dynamic_action.attribute_01, false) || ''";',
+'            var regionSelector = '' || apex_javascript.add_value(p_dynamic_action.attribute_01, false) || '';',
 '            var collectionName = '' || apex_javascript.add_value(p_dynamic_action.attribute_02, false) || '';',
 '',
 '            $("#" + regionSelector).find("td .ir-edit-input").change(function () {',
