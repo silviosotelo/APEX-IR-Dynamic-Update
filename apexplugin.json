@@ -20,7 +20,7 @@
     "url" : "https://github.com/silviosotelo/APEX-IR-Dynamic-Update"
   },
  "oracle" : {
-    "versions" : ["20.2.0.0","24.2.0.0"],
+    "versions" : ["12.1.0.1","21.3.0.0"],
     "apex" : {
       "versions" : ["20.2", "24.2"],
       "plugin" : {
