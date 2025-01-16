@@ -47,20 +47,18 @@ The plugin settings are highly customizable and you can change:
 ```
 
 - **Explanation of the Format**
-<prefix>: Indicates the data type of the column in the collection.
-
-- C for VARCHAR2 columns (C001 to C050).
-- N for NUMBER columns (N001 to N005).
-- D for DATE columns (D001 to D005).
-- CLOB for CLOB columns.
-- <SEQ_ID>: The unique sequence ID of the collection row.
-
-- <column_position>: Specifies the column number within the collection that needs to be updated. This corresponds to the column position of the desired attribute:
+- **<prefix>**: Indicates the data type of the column in the collection.
+ - **C** for VARCHAR2 columns (C001 to C050).
+ - **N** for NUMBER columns (N001 to N005).
+ - **D** for DATE columns (D001 to D005).
+ - **CLOB** for CLOB columns.
+- **<SEQ_ID>**: The unique sequence ID of the collection row.
+- **<column_position>**: Specifies the column number within the collection that needs to be updated. This corresponds to the column position of the desired attribute:
 
 **For example**:
-- To update C050 (a VARCHAR2 column), the p_item_id should be C-<SEQ_ID>-50.
-- To update N005 (a NUMBER column), the p_item_id should be N-<SEQ_ID>-5.
-- To update D003 (a DATE column), the p_item_id should be D-<SEQ_ID>-3.
+- To update C050 (a VARCHAR2 column), the p_item_id should be **C-<SEQ_ID>-50**.
+- To update N005 (a NUMBER column), the p_item_id should be **N-<SEQ_ID>-5**.
+- To update D003 (a DATE column), the p_item_id should be **D-<SEQ_ID>-3**.
 
 ## How to use
 - Add an interactive report region to your page.
